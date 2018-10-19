@@ -6,12 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "sh start.sh",
-    "prod": "sh prod.sh"
+    "prod": "sh prod.sh",
+    "uglify": "uglifyjs"
   },
   "author": "Maxime Fabas <maxime.fabas@pm.me> (https://maximefabas.github.com)",
   "license": "ISC",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cli": "^2.0.1"
-  }
+  "dependencies": {}
 }
