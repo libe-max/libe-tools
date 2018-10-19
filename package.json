@@ -1,33 +1,17 @@
 {
   "name": "libe-tools",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "start-prod": "NODE_ENV=production node ./bin/www",
-    "standard": "standard --verbose | snazzy",
-    "standard-fix": "standard --fix --verbose | snazzy"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sh start.sh",
+    "prod": "sh prod.sh"
   },
+  "author": "Maxime Fabas <maxime.fabas@pm.me> (https://maximefabas.github.com)",
+  "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "^4.1.0",
-    "express": "^4.16.4",
-    "http-errors": "^1.7.1",
-    "moment": "^2.22.2",
-    "monk": "^6.0.6",
-    "morgan": "^1.9.1",
-    "node-zip": "^1.1.1",
-    "pug": "^2.0.3",
-    "uuid": "^3.3.2",
-    "webshot": "^0.18.0"
-  },
-  "standard": {
-    "ignore": [
-      "client/"
-    ]
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.4"
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1"
   }
 }

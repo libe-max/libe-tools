@@ -1,0 +1,6 @@
+[submodule "libe-tools-back"]
+	path = libe-tools-back
+	url = https://github.com/libe-max/libe-tools-back
+[submodule "libe-tools-front"]
+	path = libe-tools-front
+	url = https://github.com/libe-max/libe-tools-front
