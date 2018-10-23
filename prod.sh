@@ -6,7 +6,6 @@ echo "RUN BUILD"
 echo "========================================"
 echo ""
 echo ""
-
 npm run build &&
 git checkout master &&
 
@@ -84,5 +83,4 @@ echo ""
 echo ""
 git push -u origin production &&
 git checkout master &&
-rm -rf ./client &&
-rm -rf .DS_Store
+rm -rf ./client
