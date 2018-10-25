@@ -1,5 +1,26 @@
 #!/bin/bash -e
 
+echo "Did you run standard.js? (y/n)"
+read resp
+if [ $resp != "y" ]; then
+  echo "Well, do it then. Bye."
+  exit 0
+fi
+
+echo "Did you commit everything in libe-tools-back? (y/n)"
+read resp
+if [ $resp != "y" ]; then
+  echo "Who are you kidding?"
+  exit 0
+fi
+
+echo "Did you commit everything in libe-tools-front? (y/n)"
+read resp
+if [ $resp != "y" ]; then
+  echo "Go to hell."
+  exit 0
+fi
+
 cd ./libe-tools-front &&
 
 echo "RUN BUILD"
