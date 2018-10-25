@@ -14,6 +14,7 @@ echo "COMMIT IN MASTER/FRONT"
 echo "========================================"
 echo ""
 echo ""
+git add .
 git commit -a -m "😱 automatic commit via 'npm run prod' in libe-tools repo" || echo "Nothing to commit in libe-tools-front/master" &&
 
 echo ""
@@ -37,6 +38,7 @@ echo "COMMIT IN MASTER/BACK"
 echo "========================================"
 echo ""
 echo ""
+git add .
 git commit -a -m "😱 automatic commit via 'npm run prod' in libe-tools repo" || echo "Nothing to commit in ibe-tools-back/master" &&
 
 echo ""
@@ -74,6 +76,7 @@ echo "COMMIT IN PRODUCTION/BACK"
 echo "========================================"
 echo ""
 echo ""
+git add .
 git commit -a -m "🔥 production ready" || echo "Nothing to commit in production" &&
 
 echo ""
