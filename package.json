@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
+  "author": "Maxime Fabas <maxime.fabas@pm.me> (https://maximefabas.github.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libe-max/libe-tools.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "sh start.sh",
     "prod": "sh prod.sh",
     "uglify": "uglifyjs"
   },
-  "author": "Maxime Fabas <maxime.fabas@pm.me> (https://maximefabas.github.com)",
-  "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "license": "ISC"
 }
